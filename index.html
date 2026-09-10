@@ -31,6 +31,7 @@
   }
   .wrap{max-width:800px;margin:0 auto;padding:0 24px}
   h1,h2,h3{margin:0;font-weight:600}
+  a,a:link,a:visited,a:active{color:var(--ink)}
 
   /* 사람이 먼저 */
   header{padding:76px 0 0;text-align:center}
@@ -74,7 +75,7 @@
   /* 링크 */
   .linklist{margin:0;padding:0;list-style:none;background:var(--card);border:1px solid var(--rule);border-radius:6px;overflow:hidden}
   .linklist li + li{border-top:1px solid var(--rule)}
-  .linklist a{
+  .linklist a,.linklist a:visited{
     display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:4px 16px;
     padding:16px 22px;text-decoration:none;color:inherit;
   }
@@ -87,7 +88,7 @@
   /* 연락 */
   .contact{background:var(--card);border:1px solid var(--rule);border-radius:6px;padding:26px 28px}
   .contact p{margin:0 0 8px;font-size:16.5px}
-  .contact a{color:inherit;text-decoration:underline;text-decoration-color:var(--pink);text-underline-offset:4px;text-decoration-thickness:2px}
+  .contact a,.contact a:visited{color:var(--ink);text-decoration:underline;text-decoration-color:var(--pink);text-underline-offset:4px;text-decoration-thickness:2px}
   .contact a:hover{color:var(--pink-deep);text-decoration-color:var(--pink-deep)}
   .contact .last{margin:16px 0 0;font-size:16.5px;color:var(--ink);font-weight:600}
   footer{padding:60px 0 90px;color:var(--gray);font-size:14px;text-align:center}
