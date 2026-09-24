@@ -56,6 +56,10 @@
   .doing strong{display:block;font-size:18px;font-weight:700}
   .doing span{display:block;color:#55535B;font-size:15.5px;line-height:1.75;margin-top:5px}
 
+  /* 강의 사진 */
+  .shots{margin:0 0 24px;padding:0}
+  .shots img{display:block;width:100%;max-width:430px;border-radius:6px;border:1px solid var(--rule);background:var(--card)}
+  .shots figcaption{margin-top:8px;color:#5F5D66;font-size:14px}
   /* 강의 */
   .talks{margin:0 0 22px;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:9px}
   .talks li{background:var(--card);border:1px solid var(--rule);border-left:3px solid var(--pink);border-radius:4px;padding:9px 18px;font-size:16px;font-weight:600}
@@ -131,6 +135,7 @@
   <section>
     <h2>강의</h2>
     <p class="note">이런 곳에서 강의했습니다.</p>
+    <figure class="shots"><img src="/lecture.jpg" alt="강의하는 모습"><figcaption>기관 특강 현장</figcaption></figure>
     <ul class="talks">
       <li>농업기술센터</li>
       <li>1인미디어센터</li>
